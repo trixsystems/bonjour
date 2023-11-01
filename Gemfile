@@ -5,8 +5,8 @@ source 'https://rubygems.org'
 ruby '3.2.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'devise', '~> 4.8', '>= 4.8.1'
-gem 'devise-i18n', '~> 1.10', '>= 1.10.1'
+gem 'devise'
+gem 'devise-i18n'
 gem 'image_processing', '>= 1.2'
 gem 'jwt'
 gem 'rails', '~> 7.1.1'
@@ -46,7 +46,7 @@ gem 'bootsnap', require: false
 # gem "rack-cors"
 
 group :development, :test do
-  gem 'annotate', '~> 3.1', '>= 3.1.1'
+  gem 'annotate'
   gem 'better_errors', '~> 2.9', '>= 2.9.1'
   gem 'binding_of_caller', '~> 1.0'
   gem 'brakeman', '~> 5.2'
